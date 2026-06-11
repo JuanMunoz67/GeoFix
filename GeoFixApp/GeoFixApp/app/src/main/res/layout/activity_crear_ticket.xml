@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <Spinner
+        android:id="@+id/spPrioridad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEdificio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edificio" />
+
+    <EditText
+        android:id="@+id/etAula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aula o área" />
+
+    <Button
+        android:id="@+id/btnGuardarTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Ticket" />
+
+</LinearLayout>
