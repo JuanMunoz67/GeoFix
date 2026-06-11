@@ -1,0 +1,36 @@
+# === Android / Gradle ===
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Build outputs
+**/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Keystores y secretos (NUNCA subir)
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+secrets.properties
+
+# Logs
+*.log
+
+# Archivos de usuario de Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
